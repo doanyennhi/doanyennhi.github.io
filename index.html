@@ -16,9 +16,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   bottom: 0;
   height: inherit;
 }
-body {
-  background-color:mediumpurple;
-}
 </style>
 
 <body>
@@ -42,67 +39,75 @@ body {
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">About me</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">My biggest interest</a>
+  <a class="w3-bar-item w3-button w3-hover-grey" href="#about-me">About Me</a>
+  <a class="w3-bar-item w3-button w3-hover-grey" href="#biggest-interest">My Biggest Interest</a>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-overlay w3-hide-large sidebar-effect" onclick="w3_close()" title="close side menu" id="myOverlay"></div>
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
+<div class="w3-main main-content">
 
-  <div class="w3-row w3-padding-64">
+  <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-amber">About Me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 id="about-me" class="w3-text-amber"><b>About Me</b></h1>
+      <p class="w3-text-sand">Hello and welcome to my website! My name is Doan Yen Nhi, and I am a first year IT student 
+        at RMIT University Vietnam, Saigon South Campus.</p>
+      </p>
+      <p class="w3-text-sand">Just to tell you a little bit about me: In my free time, I enjoy listening to music and 
+        eating delicious food like brownies. I also LOVE reading comics, so I'm hoping to find people who share the same 
+        hobby as me. Wanna know more about my special interest? Scroll down or click on "My Biggest Interest"!
+      </p>
+      <p class="w3-text-sand">This website contains information about my IT team, my IT project ideas, and so much more. 
+        Feel free to check it out!</p>
     </div>
     <div class="w3-third w3-container">
-      <img src ="IMG_4945.PNG" class="w3-padding-large w3-padding-32 w3-center" alt="PH image" style="width: 300px; height: 300px">
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+        <img src ="nhi_photo.jpg" class="w3-padding-large w3-padding-32 w3-center image" alt="Photo of myself">
     </div>
   </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-amber">My Biggest Interest</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 id="biggest-interest" class="w3-text-amber"><b>My Biggest Interest</b></h1>
+      <p class="w3-text-sand">As mentioned above, I really enjoy reading comics, and I have recently found a platform named
+        Webtoon that has various interesting webcomics for me to read. Amongst those stories, I instantly got hooked to 
+      a series called "Purple Hyacinth," and it has become a healthy obsession of mine ever since. I also go to this webtoon's 
+      Discord server regularly to theorize and analyze "Purple Hyacinth" with other passionate fans. This gives me the chance to socialize
+      and get to know so many amazing people online!</p>
+        <p class="w3-text-sand">And thanks to this webtoon, I have come up with an interesting idea for my 
+          Intro to IT assignment. If you want to learn more about this idea, you can visit the page "Project Ideas"!</p>
+      <img src ="purple-hyacinth-rec.png" class="w3-padding-large w3-padding-32 w3-center image" alt="PH banner">
     </div>
     <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+        <img src ="IMG_4945.PNG" class="w3-padding-large w3-padding-32 w3-center image" alt="PH photo">
     </div>
   </div>
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
+
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <a class="w3-button w3-black" href="#">1</a>
-      <a class="w3-button w3-hover-black" href="#">2</a>
-      <a class="w3-button w3-hover-black" href="#">3</a>
-      <a class="w3-button w3-hover-black" href="#">4</a>
-      <a class="w3-button w3-hover-black" href="#">5</a>
-      <a class="w3-button w3-hover-black" href="#">»</a>
+      <a class="w3-button w3-hover-black" href="teamprofile.html">2</a>
+      <a class="w3-button w3-hover-black" href="tools.html">3</a>
+      <a class="w3-button w3-hover-black" href="projectideas.html">4</a>
+      <a class="w3-button w3-hover-black" href="ittech.html">5</a>
+      <a class="w3-button w3-hover-black" href="itwork.html">6</a>
+      <a class="w3-button w3-hover-black" href="feedback.html">7</a>
     </div>
   </div>
 
   <footer id="myFooter">
-    <div class="w3-container w3-theme-l2 w3-padding-32">
-      <h4>Footer</h4>
+    <div class="w3-container w3-theme-l2 w3-padding-16">
+      <h4 class="w3-padding-16">You can find me at:</h4>
+      <i class="icon fa fa-linkedin" href = "#"></i>
+      <i class="icon fa fa-facebook" href = "#"></i>
+      <i class="icon fa fa-instagram" href = "#"></i>
+      <i class="icon fa fa-twitter" href = "#"></i>
+      <i class="icon fa fa-snapchat" href = "#"></i>
+      <i class="icon fa fa-wordpress" href = "#"></i>
     </div>
 
     <div class="w3-container w3-theme-l1">
