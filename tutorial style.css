@@ -3,7 +3,7 @@
     padding: 50px 10px 30px 10px;
     text-align: center;
     background-color: #b65fcf;
-    border-width: 8px;
+    border-width: 12px;
     border-color:black;
     border-style: solid; 
 }
@@ -38,4 +38,7 @@
 
 .para {padding-bottom: 20px}
 
-
+.vid {
+    text-align: center;
+    padding-bottom: 20px;
+}
