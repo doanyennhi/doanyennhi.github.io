@@ -131,7 +131,7 @@ html{overflow-x:hidden}
 
 h1{
     font-size:36px;
-    padding: 40px 10px 10px 10px
+    padding: 50px 10px 10px 20px
 }
 
 h2{font-size:30px}
@@ -148,6 +148,11 @@ h1,h2,h3,h4,h5,h6{
     margin:10px 0
 }
 
+.para {
+    line-height: 1.8;
+    padding-left: 20px
+}
+
 .w3-wide{letter-spacing:4px}
 
 .main-content {margin-left:250px}
@@ -160,10 +165,17 @@ hr{
     margin:20px 0
 }
 
-.image{
+.image1{
     width:100%;
     height:100%;
-    margin: 50px 0px
+    padding-top: 50px;
+    margin-top: 110px
+}
+
+.image2{
+    width:100%;
+    height:100%;
+    padding-top: 40px;
 }
 
 .icon {
