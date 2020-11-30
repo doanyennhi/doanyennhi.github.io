@@ -1,0 +1,39 @@
+.heading1{
+    font-size:40px;
+    padding: 50px 10px 30px 10px;
+    text-align: center;
+    background-color: #b65fcf;
+    border-width: 8px;
+    border-color:black;
+    border-style: solid; 
+}
+
+.subheading {
+    font-size: 16px;
+    padding: 10px 10px 40px 20px;
+    color: #ffd79d
+}
+
+.heading2 {
+    font-size:25px;
+    text-align: center;
+    padding: 10px;
+    height: 55px;
+    background-color: grey;
+    color: #fce205
+}
+
+.w3-bar {
+    padding: 2px;
+    background-color: black;
+    margin: 0px
+}
+
+.para-container {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    color: #fffdd0;
+    line-height: 2;
+}
+
+.para {padding-bottom: 20px}
