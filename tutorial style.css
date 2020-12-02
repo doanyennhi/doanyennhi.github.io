@@ -9,6 +9,7 @@
 }
 
 .subheading {
+    text-align: center;
     font-size: 16px;
     padding: 10px 10px 40px 20px;
     color: #ffd79d
@@ -42,3 +43,16 @@
     text-align: center;
     padding-bottom: 20px
 }
+
+#footer {
+    color: white;
+    background-color: grey;
+    padding: 20px
+}
+
+.heading4 {
+    text-align: center;
+}
+
+
+
