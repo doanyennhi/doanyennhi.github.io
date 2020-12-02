@@ -2,7 +2,8 @@
     font-size:40px;
     padding: 50px 10px 30px 10px;
     text-align: center;
-    background-color: #b65fcf;
+    color: #192bc2;
+    background-color: #fcbacb;
     border-width: 12px;
     border-color:black;
     border-style: solid; 
@@ -11,7 +12,7 @@
 .subheading {
     text-align: center;
     font-size: 16px;
-    padding: 10px 10px 40px 20px;
+    padding: 40px 40px 60px 40px;
     color: #ffd79d
 }
 
@@ -20,19 +21,19 @@
     text-align: center;
     padding: 10px;
     height: 55px;
-    background-color: grey;
+    background-color: #e11584;
     color: #fce205
 }
 
 .w3-bar {
-    padding: 2px;
+    padding: 1px;
     background-color: black;
     margin: 0px
 }
 
 .para-container {
     padding: 20px 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #fffdd0;
     line-height: 2;
 }
