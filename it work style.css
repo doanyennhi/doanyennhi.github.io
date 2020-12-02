@@ -1,6 +1,7 @@
 
 .header1 {
-    background-color: #0197f6;
+    background-color:#82eefd;
+    color: #757c88;
     font-size:40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px 10px 30px 10px;
@@ -11,10 +12,26 @@
     background-blend-mode: lighten;
 }
 
+.container1 {
+    border: black solid 4px;
+    margin: 0px 50px;
+    padding-bottom: 20px;
+}
+
 .header2 {
-    font-size:25px;
+    margin: 0px;
+    font-size:30px;
     text-align: center;
     padding: 10px;
-    height: 55px;
-    background-color: #1034A6;
-    color: #f8e110
+    height: 65px;
+    background-color: #0047ab;
+    color: #dedede;
+}
+
+.interview {
+    padding: 8px 40px;
+}
+
+
+  
+  
