@@ -11,12 +11,6 @@
     border-style: solid
 }
 
-.container1 {
-    border: black solid 4px;
-    margin: 0px 50px;
-    padding-bottom: 20px;
-}
-
 .header2 {
     margin: 0px;
     font-size:30px;
@@ -27,8 +21,25 @@
     color: #dedede;
 }
 
+.container1 {
+    border: black solid 4px;
+    margin: 0px 50px 80px 50px;
+    padding-bottom: 20px;
+}
+
+.container2 {
+    margin: 70px 50px
+}
+
 .interview {
     padding: 8px 40px;
+}
+
+.button {
+    padding: 10px;
+    border-color: black;
+    border-width: 1px;
+
 }
 
 
