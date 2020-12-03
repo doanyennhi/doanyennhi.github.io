@@ -148,6 +148,19 @@ h1,h2,h3,h4,h5,h6{
     margin:10px 0
 }
 
+.subheading {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 50px 60px 50px;
+    color: #ffd79d
+}
+
+.w3-bar {
+    padding: 1px;
+    background-color: black;
+    margin: 0px
+}
+
 .para {
     line-height: 1.8;
     padding-left: 20px
@@ -181,7 +194,6 @@ hr{
 .icon {
     margin-right: 60px;
 }
-
 
 img{vertical-align:middle}
 

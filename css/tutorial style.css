@@ -9,13 +9,6 @@
     border-style: solid; 
 }
 
-.subheading {
-    text-align: center;
-    font-size: 16px;
-    padding: 40px 50px 60px 50px;
-    color: #ffd79d
-}
-
 .heading2 {
     font-size:25px;
     text-align: center;
@@ -25,10 +18,8 @@
     color: cyan
 }
 
-.w3-bar {
-    padding: 1px;
-    background-color: black;
-    margin: 0px
+.heading4 {
+    text-align: center;
 }
 
 .para-container {
@@ -51,10 +42,5 @@
     padding: 20px;
     margin-top: 10px;
 }
-
-.heading4 {
-    text-align: center;
-}
-
 
 
