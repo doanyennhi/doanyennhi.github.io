@@ -1,0 +1,55 @@
+.head1 {
+    font-size:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 10px 30px 10px;
+    text-align: center;
+    background-color: #0197f6;
+    color: #fcd12a;
+    border: 12px black solid;
+    margin-bottom: 80px;
+}
+
+.head2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    height: 75px;
+    border-bottom: 4px black solid;
+    border-top-left-radius: 1.3cm;
+    border-top-right-radius: 1.3cm;
+    margin-top: 0px;
+    background-color: #0047ab;
+    color: #effd5f
+}
+
+.box-overview, .box-motiv, .box-descrip, .box-skills, .box-tools, .box-outcome {
+    margin-bottom: 100px;
+    margin-right: 5%;
+    border: 4px black solid;
+    border-radius: 1.4cm;
+    background-color:#696969;
+    float: left;
+}
+
+.box-overview, .box-descrip, .box-skills, .box-outcome {margin-left: 5%}
+
+.box-overview, .box-tools {width: 35%}
+
+.box-motiv, .box-skills {width: 50%}
+
+.box-descrip {width: 90%}
+
+.para1, .property {line-height: 1.8}
+    
+.para1 {padding: 10px 20px 20px 20px}
+
+.property {margin: 40px 20px 40px 15px}
+
+#footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
