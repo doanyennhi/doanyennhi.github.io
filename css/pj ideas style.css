@@ -3,8 +3,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 50px 10px 30px 10px;
     text-align: center;
-    background-color: #0197f6;
-    color: #fcd12a;
+    background-color: #89cff0;
+    color: #ff0090;
     border: 12px black solid;
     margin-bottom: 80px;
 }
@@ -19,15 +19,17 @@
     border-top-right-radius: 1.3cm;
     margin-top: 0px;
     background-color: #0047ab;
-    color: #effd5f
+    color: #ffdbe9
 }
+
+h4 {text-align: center}
 
 .box-overview, .box-motiv, .box-descrip, .box-skills, .box-tools, .box-outcome {
     margin-bottom: 100px;
     margin-right: 5%;
     border: 4px black solid;
     border-radius: 1.4cm;
-    background-color:#696969;
+    background-color:white;
     float: left;
 }
 
@@ -48,8 +50,7 @@
 #footer {
     color: white;
     background-color: black;
-    padding: 20px;
+    padding: 10px 30px;
     margin-top: 10px;
 }
-
 

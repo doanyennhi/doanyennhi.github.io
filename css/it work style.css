@@ -1,6 +1,6 @@
 
 .header1 {
-    background-color: yellow;
+    background-color: #ffc30b;
     color: rgb(61, 58, 58);
     font-size:40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,7 +16,7 @@
     text-align: center;
     padding: 6px;
     height: 70px;
-    background-color: #ffd300;
+    background-color:rgb(228, 228, 32);
     color:gray;
     border-top: 4px black solid;
     border-bottom: 4px black solid;
