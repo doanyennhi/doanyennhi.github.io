@@ -1,0 +1,15 @@
+.head1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 10px 30px 10px;
+    text-align: center;
+    background-color: white;
+    border: 12px black solid;
+    margin-bottom: 80px;
+}
+
+.para {
+    padding: 0px 40px 40px 30px;
+    margin: 0px 50px;
+    color: white
+}
