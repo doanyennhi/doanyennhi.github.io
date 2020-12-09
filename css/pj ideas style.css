@@ -1,3 +1,7 @@
+#body2 {
+   background-color: mediumpurple;
+}
+
 .head1 {
     font-size:40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -31,6 +35,7 @@ h4 {text-align: center}
     border-radius: 1.4cm;
     background-color:white;
     float: left;
+    background-image: linear-gradient(#aa076b, #61045f)
 }
 
 .box-overview, .box-descrip, .box-skills, .box-outcome {margin-left: 5%}
