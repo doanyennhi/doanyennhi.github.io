@@ -35,7 +35,7 @@ h4 {text-align: center}
     border-radius: 1.4cm;
     background-color:white;
     float: left;
-    background-image: linear-gradient(#aa076b, #61045f)
+    background-image: linear-gradient(#ed4264, #ffedbc)
 }
 
 .box-overview, .box-descrip, .box-skills, .box-outcome {margin-left: 5%}
