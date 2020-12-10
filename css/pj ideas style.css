@@ -1,5 +1,5 @@
 #body2 {
-   background-image:linear-gradient( #a5678e, #7facd6);
+   background-image:linear-gradient(#7facd6,#a5678e);
 }
 
 .head1 {
@@ -7,8 +7,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 50px 10px 30px 10px;
     text-align: center;
-    background-color: #89cff0;
-    color: #ff0090;
+    color: #00ffff;
+    background-color: #9932cc;
     border: 12px black solid;
     margin-bottom: 80px;
 }
