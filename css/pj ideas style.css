@@ -1,5 +1,5 @@
 #body2 {
-   background-color: mediumpurple;
+   background-image:linear-gradient( #a5678e, #7facd6);
 }
 
 .head1 {
@@ -34,8 +34,7 @@ h4 {text-align: center}
     border: 4px black solid;
     border-radius: 1.4cm;
     background-color:white;
-    float: left;
-    background-image: linear-gradient(#ed4264, #ffedbc)
+    float: left
 }
 
 .box-overview, .box-descrip, .box-skills, .box-outcome {margin-left: 5%}
@@ -46,7 +45,10 @@ h4 {text-align: center}
 
 .box-descrip {width: 90%}
 
-.para1, .property {line-height: 1.8}
+.para1, .property {
+    line-height: 1.8;
+    color: black
+}
     
 .para1 {padding: 10px 20px 20px 20px}
 
