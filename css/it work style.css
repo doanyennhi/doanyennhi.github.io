@@ -1,17 +1,11 @@
 .body2, .body3 {
-    background-image: linear-gradient(#ccabd8, #bce6ff)
+    background-image: linear-gradient(#ccabd8, #bce6ff);
+    background-repeat: no-repeat;
 }
 
-.subheading1 {
-    text-align: center;
-    font-size: 16px;
-    padding: 20px 50px 60px 50px;
-
-}
 
 .header1 {
     background-color:#fb607f;
-    color: rgb(61, 58, 58);
     font-size:40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -27,9 +21,16 @@
     padding: 6px;
     height: 70px;
     background-color: #fc94af;
-    color: #555555;
     border-top: 4px black solid;
     border-bottom: 4px black solid;
+}
+
+.subheading1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 50px 80px 50px;
+    margin: 0px 50px
+
 }
 
 .container1 {

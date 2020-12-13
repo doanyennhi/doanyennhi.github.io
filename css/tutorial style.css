@@ -1,4 +1,7 @@
-.body2 {background-image: linear-gradient(#5874dc, #e06c78)}
+.body2 {
+    background-image: linear-gradient(#5874dc, #e06c78);
+    background-repeat: no-repeat;
+}
 
 .heading1{
     font-size:40px;

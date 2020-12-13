@@ -1,7 +1,23 @@
 #page-body {
-    background-image: linear-gradient(#4ca1af, #c4e0e5)
+    background-image: linear-gradient(#6ac0ee, #e5f4f7);
+    background-repeat: no-repeat;
 }
 
 .heading1 {
 
+}
+
+.column1, .column2, .column3 {
+    float: left;
+    border: black solid;
+    width: 25%;
+
+}
+
+.column1 {
+    margin-left: 5%;
+}
+
+.column3 {
+    margin-right: 5%;
 }

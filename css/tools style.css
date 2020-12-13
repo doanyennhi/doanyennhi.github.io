@@ -1,4 +1,18 @@
 #page-body {
     background-image: linear-gradient(#9796f0,#fbc7d4);
-    
+    background-repeat: no-repeat;
+}
+
+.heading1 {
+    text-align: center;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f8c9ce;
+    padding: 50px 10px 30px 10px;
+    border: 12px black solid;
+}
+
+.tools-container {
+    margin: 80px 100px;
+    line-height: 2;
 }

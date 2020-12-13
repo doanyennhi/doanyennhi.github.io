@@ -1,3 +1,11 @@
 #page-body {
-    background-image: linear-gradient(#ddd6f3,  #faaca8);
+    background-image: linear-gradient(#d9a7c7,  #fffcdc);
+    background-repeat: no-repeat;
+}
+
+.heading1 {
+    text-align: center;
+    color: #c21e56;
+    background-color: #ffe8e5;
+    border: 12px black solid
 }
