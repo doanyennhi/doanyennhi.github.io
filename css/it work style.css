@@ -10,8 +10,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 60px 10px 30px 10px;
+    margin: 0 0 60px 0;
     border: 12px black solid;
-    margin: 0 0 60px 0
 }
 
 .header2 {
@@ -55,7 +55,7 @@
     padding: 20px 40px
 }
 
-.button {
+.button1 {
     padding: 10px;
     margin-left: 40px;
     background-color: #f79ac0;
