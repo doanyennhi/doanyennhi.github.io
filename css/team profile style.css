@@ -4,21 +4,43 @@
 }
 
 .heading1 {
-    background-color: #1520a6;
+    font-size: 40px;
+    text-align: center;
+    background-color: #4443fa;
     color: white;
+    border: 12px black solid;
+    padding: 60px 10px 30px 10px;
+    margin: 0 0 60px 0;
 }
 
-.column1, .column2, .column3 {
+.box1 {
+    margin-bottom: 50px
+}
+
+.column1, .column2 {
     float: left;
     border: black solid;
-    width: 25%;
-
+    width: 25%
 }
 
 .column1 {
-    margin-left: 5%;
+    margin-left: 20%;
+    margin-right: 10%
 }
 
 .column3 {
-    margin-right: 5%;
+    margin-right: 20%;
+}
+
+.column4, .column5 {
+
+}
+
+.column4 {
+    margin-left:20px;
+    margin-right: 10px
+}
+
+.column5 {
+    margin-right: 20px;
 }
