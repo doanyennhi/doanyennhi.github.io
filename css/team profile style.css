@@ -13,34 +13,44 @@
     margin: 0 0 60px 0;
 }
 
-.box1 {
-    margin-bottom: 50px
+.heading2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 100px 0px 70px 0px;
+    padding: 10px;
+    height: 60px;
+    background-color: #1261a0;
+    color: white
 }
 
-.column1, .column2 {
-    float: left;
-    border: black solid;
-    width: 25%
+.placeholder1 {
+    margin: 0px 60px 60px 60px;
+    line-height: 2;
 }
 
-.column1 {
-    margin-left: 20%;
-    margin-right: 10%
+.img1 {
+    text-align: center;
+    width:45%;
+    height: 45%;
+    margin-top: 20px;
+    margin-right: 16%;
+    margin-left: 4%
 }
 
-.column3 {
-    margin-right: 20%;
+.img2 {
+    text-align: center;
+    width:30%;
+    height: 30%;
+    margin-top: 20px;
+    margin-right: 4%
 }
 
-.column4, .column5 {
-
+.paragraph {
+    margin-bottom: 60px
 }
 
-.column4 {
-    margin-left:20px;
-    margin-right: 10px
-}
 
-.column5 {
-    margin-right: 20px;
-}
+
+
+
+
